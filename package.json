@@ -43,6 +43,9 @@
   "peerDependencies": {
     "eslint": ">=5"
   },
+  "resolutions": {
+    "dot-prop": "4.2.1"
+  },
   "scripts": {
     "prebuild": "npm run -s clean",
     "build": "rollup -c",
